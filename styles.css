@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #000000ad;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .calculator {
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  .del_button {
+    background-color: #970000;
+  }
+
+  .del_button:hover {
+    background-color: #cd0303;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+  }
+  
+  #display {
+    width: 93%;
+    height: 50px;
+    background-color: #cacaca;
+    border: solid;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #c00000;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(152, 152, 152, 0.468);
+    border-color: #6666664a;
+  }
+  
+  #display:hover {
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    background-color: #cacaca;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+  }
+  
+  button:hover {
+    background-color: #9b9b9b;
+  }
+  
+  button:active {
+    background-color: #000000;
+  }
+  
+  .zero {
+    grid-column: span 2;
+  }
+
+  .equal_button {
+    background-color: #002947e2;
+  }
+
+  .equal_button:hover {
+    background-color: #035b9a88;
+  }
+
+  h1:hover {
+    color: #ffffffbd;
+  }
